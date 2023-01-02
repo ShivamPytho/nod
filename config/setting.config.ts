@@ -27,13 +27,13 @@ export class DataBaseConfig {
 }
 
 
-export class MongoConfig {
-    public HOST: string = "142.54.169.82";
-    public USER: string = "gvadmin";
-    public PASS: string = "2012GventureAdmin2021";
-    public NAME: string = "ca_dialer";
-    public PORT: string = "27017";
-}
+// export class MongoConfig {
+//     public HOST: string = "142.54.169.82";
+//     public USER: string = "gvadmin";
+//     public PASS: string = "2012GventureAdmin2021";
+//     public NAME: string = "ca_dialer";
+//     public PORT: string = "27017";
+// }
 
 export class VoiceServer {
     TYPE = "none";

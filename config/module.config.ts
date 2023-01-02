@@ -104,7 +104,7 @@ export class modLogin {
 
 
 export class modSession {
-    public data: Session = { table: "session", session: "authkey", field: ["id", "username", "type", "email", "company", "balance"] };
+    public data: Session = { table: "session", session: "authkey", field: ["id", "username", "type", "email"] };
 }
 
 

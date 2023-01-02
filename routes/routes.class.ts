@@ -1,6 +1,7 @@
 'use strict';
 import { AppRoute } from "../lib/AppRoute";
 import { UploadDirectory } from "../config/setting.config";
+import { UserClass } from "../include/user.class";
 
 
 
@@ -13,7 +14,9 @@ var uploaddir = new UploadDirectory();
 module.exports = function (app: any) {
 
   /* User Register*/
-  // const agent = new userregister();
+  const user = new UserClass();
+  app.post("/register", user.registration)
+
 
   
 
